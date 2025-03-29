@@ -5,6 +5,7 @@ const math = require('./math');
     console.log("🔢 Benvenuto nella Calcolatrice CLI!");
     console.log("🔢 Puoi eseguire operazioni di addizione, sottrazione, moltiplicazione e divisione.");
     console.log("🔢 Per uscire, digita '5' quando richiesto.");
+    
 while (true) {
     console.log("Scegli un'operazione:");
     console.log("1 - Addizione");
