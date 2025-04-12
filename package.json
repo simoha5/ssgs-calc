@@ -4,7 +4,7 @@
   "main": "index.js",
   "scripts": {
     "test": "jest",
-    "build": "npx babel src --out-dir dist"
+    "build": "npx babel . --out-dir dist"
   },
   "keywords": [],
   "author": "",
