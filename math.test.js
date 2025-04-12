@@ -9,8 +9,8 @@ test("Test addizione2", () => {
 test("Test addizione3", () => {
     expect(add(-10, -5)).toBe(-15);
 });
-test("Test addizione3", () => {
-    expect(add(-10, 5)).toBe(-15);
+test("Test addizione4", () => {
+    expect(add(0, 0)).toBe(0);
 });
 
 test("Test sottrazione", () => {
