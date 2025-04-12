@@ -1,36 +1,11 @@
 name: Esegui Test
+
 on: push
-<<<<<<< HEAD
-
 jobs:
-  build:
-    runs-on: ubuntu-latest
-
-    steps:
-      - name: Checkout repository
-        uses: actions/checkout@v3
-
-      - name: Setup Node.js
-        uses: actions/setup-node@v3
-        with:
-          node-version: '16'
-
-      - name: Install dependencies
-        run: npm install
-
-      - name: Build project
-        run: npm run build
-  
   test:
-    needs: build
     runs-on: ubuntu-latest
 
     steps:
-=======
- test:
-  runs-on: ubuntu-latest
-  steps:
->>>>>>> cdca0406c45bf8377d6979ea365631c54aae41f6
       - name: Checkout repository
         uses: actions/checkout@v3
 
