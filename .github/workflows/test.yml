@@ -1,13 +1,21 @@
 name: Esegui Test
 
-on:
-  push:
-    branches:
-      - main
-  pull_request:
+on: push
 
 jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+        - name: checkout repo
+          uses: actions/checkout@v3
+        - name: use node.js
+          uses: actions/setup-node@v3
+          with:
+              node-version: '16'
+        - run: npm install
+        - run: npm run build
   test:
+    needs: build
     runs-on: ubuntu-latest
 
     steps:
