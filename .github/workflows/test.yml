@@ -1,6 +1,6 @@
 name: Esegui Test
-
 on: push
+<<<<<<< HEAD
 
 jobs:
   build:
@@ -26,6 +26,11 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
+=======
+ test:
+  runs-on: ubuntu-latest
+  steps:
+>>>>>>> cdca0406c45bf8377d6979ea365631c54aae41f6
       - name: Checkout repository
         uses: actions/checkout@v3
 
