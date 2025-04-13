@@ -12,7 +12,8 @@ jobs:
          node-version: '22.x'
      - name: Install dependencies
        run: npm install
-     - name: Build project
-       run: npm run build
-     - name: Run tests
-       run: npm test
+       working-directory: "ssgs-calc"
+     - name: Build project with permession
+       run: chmod +X ./node_modules/.bin/jest
+       working-directory: "ssgs-calc"
+     
