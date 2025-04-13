@@ -9,10 +9,18 @@ jobs:
      - name: Setup Node.js
        uses: actions/setup-node@v3
        with:
-         node-version: '18.x'
+         node-version: '22.x'
      - name: Install dependencies
        run: npm install
+<<<<<<< HEAD:.github/workflows/build-and-test.yml
      - name: Set execution permissions for Jest
        run: chmod +x ./node_modules/.bin/jest
      - name: Run tests
        run: npm test
+=======
+       working-directory: "ssgs-calc"
+     - name: Build project with permession
+       run: chmod +X ./node_modules/.bin/jest
+       working-directory: "ssgs-calc"
+     
+>>>>>>> 3e9d15cb6757ae4dc6ec0a3b3e1ec1bf2fe01e4a:.github/workflows/build-test.yml
