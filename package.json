@@ -1,24 +1,22 @@
 {
-  "name": "ssgs-calc",
+  "name": "calc_from-beging",
   "version": "1.0.0",
+  "description": "- [simoha5](https://github.com/simoha5) - Creatore principale",
   "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
   "scripts": {
     "test": "jest",
-    "build": "npx babel . --out-dir dist"
+    "build": "if not exist dist mkdir dist && copy src\\index.js dist\\"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "description": "",
   "dependencies": {
     "readline-sync": "^1.4.10"
   },
   "devDependencies": {
-    "@babel/cli": "^7.27.0",
-    "@babel/core": "^7.26.10",
-    "@babel/plugin-proposal-private-property-in-object": "^7.21.11",
-    "@babel/preset-env": "^7.26.9",
-    "babel-jest": "^29.7.0",
     "jest": "^29.7.0"
   }
 }
