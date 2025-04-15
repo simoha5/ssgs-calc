@@ -12,13 +12,31 @@
 
 ## 🧰 Requisiti
 
-- [Node.js](https://nodejs.org/) **versione 14 o superiore**
+- [Node.js] **versione 18 **
 - Terminale compatibile (Windows, macOS, Linux)
 
 ## 🚀 Installazione
 
 Clona il repository ed entra nella cartella del progetto:
-
-```bash
+--- bash ----
 git clone https://github.com/simoha5/ssgs-calc.git
 cd ssgs-calc
+
+Installa le dipendenze:----bash---
+npm install
+
+▶️ Utilizzo
+Esegui la calcolatrice tramite:---bash---
+npm test
+-->poi Segui le istruzioni a schermo per scegliere un'operazione e inserire i numeri.
+
+🧪 Eseguire i Test
+Per lanciare i test automatici scritti con Jest, usa:---bash---
+npm test
+-->Assicurati che tutti i test siano passati prima di fare il deploy o pubblicare il tuo lavoro.
+
+👨‍💻 Autore
+simoha5 – Creatore e sviluppatore principale
+
+
+
