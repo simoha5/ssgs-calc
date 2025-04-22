@@ -14,7 +14,7 @@ dist/
 
 .vscode/
 package-lock.json
-build.js
+
 
 # Test coverage
 coverage/
