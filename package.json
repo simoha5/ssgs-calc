@@ -1,0 +1,22 @@
+{
+  "name": "calc_from-beging",
+  "version": "1.0.0",
+  "description": "- [simoha5](https://github.com/simoha5) - Creatore principale",
+  "main": "index.js",
+  "directories": {
+    "test": "tests"
+  },
+  "scripts": {
+    "test": "jest --watchAll=false --coverage",
+    "build": "if not exist dist mkdir dist && copy src\\index.js dist\\ && copy src\\math.js dist\\"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "readline-sync": "^1.4.10"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
