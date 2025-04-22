@@ -28,6 +28,8 @@ cd ssgs-calc
 Installa le dipendenze:
 ```bash
 npm install
+npm run build
+
 ```
 
 ## ▶️ Utilizzo
