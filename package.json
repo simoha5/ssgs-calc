@@ -8,13 +8,14 @@
   },
   "scripts": {
     "test": "jest --watchAll=false --coverage",
-    "build": "if not exist dist mkdir dist && copy src\\index.js dist\\ && copy src\\math.js dist\\"
+    "build": "node build.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "readline-sync": "^1.4.10"
+    "readline-sync": "^1.4.10",
+    "shelljs": "^0.8.5"
   },
   "devDependencies": {
     "jest": "^29.7.0"
