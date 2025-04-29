@@ -46,7 +46,7 @@ Per lanciare i test automatici scritti con Jest, usa:
 ```bash
 npm test
 ```
-Assicurati che tutti i test siano passati prima di fare il deploy o pubblicare il tuo lavoro.
+Assicurati che tutti i test siano passati .
 
 ## 👨‍💻 Autore
 
