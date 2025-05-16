@@ -59,5 +59,13 @@ La pipeline CI:
 
 Puoi visualizzare i risultati della CI nella sezione "Actions" del repository GitHub.
 
+## 🚀 Quick Start
+
+● Esegui npm init -y nel terminale per generare il file package.json.
+● npm install readline-sync
+● node src/index.js
+● npm install --save-dev jest per installare jest
+● npm test per eseguire i test
+
 ## 👨‍💻 Autore
 **simoha5** – Creatore e sviluppatore principale
