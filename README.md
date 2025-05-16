@@ -22,6 +22,7 @@
 Clona il repository ed entra nella cartella del progetto:
 ```bash
 git clone https://github.com/simoha5/ssgs-calc
+cd ssgs-calc
 
 ```
 
