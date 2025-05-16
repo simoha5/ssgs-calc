@@ -29,7 +29,7 @@ cd ssgs-calc
 Installa le dipendenze:
 ```bash
 npm install
-npm run build
+
 
 ```
 
@@ -37,7 +37,7 @@ npm run build
 
 Esegui la calcolatrice tramite:
 ```bash
-node .\dist\index.is
+node src\index.is
 ```
 Segui le istruzioni a schermo per scegliere un'operazione e inserire i numeri.
 
@@ -52,6 +52,15 @@ Assicurati che tutti i test siano passati .
 ## 👨‍💻 Autore
 
 **simoha5** – Creatore e sviluppatore principale
+
+extra
+● Esegui npm init -y nel terminale per generare il file package.json.
+npm install readline-sync
+node src/index.js
+npm install --save-dev jest per installare jest
+
+npm test per esguire i test
+
 
 
 

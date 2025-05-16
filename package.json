@@ -1,21 +1,19 @@
 {
-  "name": "calc_from-beging",
+  "name": "ssgs-calc",
   "version": "1.0.0",
-  "description": "- [simoha5](https://github.com/simoha5) - Creatore principale",
+  "description": "**SSGS Calc** è una semplice calcolatrice da terminale sviluppata in **JavaScript (Node.js)**. Offre operazioni matematiche di base con una **CLI user-friendly** e supporto per test automatici tramite **Jest**.",
   "main": "index.js",
   "directories": {
     "test": "tests"
   },
   "scripts": {
-    "test": "jest --watchAll=false --coverage",
-    "build": "node build.js"
+    "test": "jest --watchAll=false --coverage"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "readline-sync": "^1.4.10",
-    "shelljs": "^0.8.5"
+    "readline-sync": "^1.4.10"
   },
   "devDependencies": {
     "jest": "^29.7.0"
