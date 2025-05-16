@@ -30,7 +30,7 @@ npm install
 ## ▶️ Utilizzo
 Esegui la calcolatrice tramite:
 ```bash
-node index.js
+node src/index.js
 ```
 
 Segui le istruzioni a schermo per scegliere un'operazione e inserire i numeri.
