@@ -2,9 +2,9 @@ name: Esegui Test
 
 on:
   push:
-    branches: [ main, master, develop ]
+    branches: [ main ]
   pull_request:
-    branches: [ main, master, develop ]
+    branches: [ main]
 
 jobs:
   test:
@@ -33,4 +33,4 @@ jobs:
         with:
           name: coverage-report
           path: coverage/
-          retention-days: 7
+      
