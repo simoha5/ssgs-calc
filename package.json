@@ -9,8 +9,19 @@
   "scripts": {
     "test": "jest --watchAll=false --coverage"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": ["calculator", "math", "cli", "nodejs", "jest", "terminal"],
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/ssgs-calc.git"
+  },
+  "bugs": {
+    "url": "https://github.com/yourusername/ssgs-calc/issues"
+  },
+  "homepage": "https://github.com/yourusername/ssgs-calc#readme",
+  "engines": {
+    "node": ">=14.0.0"
+  },
+  "author": "Mohammed Asslaoui",
   "license": "ISC",
   "dependencies": {
     "readline-sync": "^1.4.10"
